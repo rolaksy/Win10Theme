@@ -18,7 +18,7 @@ echo "Theme installed"
 
 sleep 1
 #Copy icons
-cp -r icons/Windows-Dark $ICONS_DIR
-cp -r icons/Windows-Light $ICONS_DIR
-echo "Icons installed"
+#cp -r icons/Windows-Dark $ICONS_DIR
+#cp -r icons/Windows-Light $ICONS_DIR
+#echo "Icons installed"
 
