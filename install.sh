@@ -11,6 +11,7 @@ else
 fi
 
 sleep 1
+rm -rf $THEME_DIR/Windows*
 cp -r Windows $THEME_DIR
 cp -r Windows-Dark $THEME_DIR
 cp -r Windows-Light $THEME_DIR

@@ -2244,7 +2244,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .applet-label {
-  font-weight: bold;
+  font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
 
