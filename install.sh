@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THEME_DIR=/home/$USER/.themes
+THEME_DIR=/home/$USER/.local/share/themes
 ICONS_DIR=/home/$USER/.local/share/icons
 
 # check if theme direcotry is present
@@ -11,14 +11,21 @@ else
 fi
 
 sleep 1
+
+#remove all existing themes
 rm -rf $THEME_DIR/Windows*
-cp -r Windows $THEME_DIR
-cp -r Windows-Dark $THEME_DIR
-cp -r Windows-Light $THEME_DIR
+rm -rf $THEME_DIR/Larsha*
+
+cp -r Larsha $THEME_DIR
+cp -r Larsha-Dark $THEME_DIR
+cp -r Larsha-Light $THEME_DIR
 echo "Theme installed"
 
 sleep 1
 #Copy icons
+#cp -r icons/Windows-Dark $ICONS_DIR
+#cp -r icons/Windows-Light $ICONS_DIR
+#echo "Icons installed"
 #cp -r icons/Windows-Dark $ICONS_DIR
 #cp -r icons/Windows-Light $ICONS_DIR
 #echo "Icons installed"

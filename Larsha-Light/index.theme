@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Fluent
+Name=Larsha-Light
 Comment=An Materia Gtk+ theme based on Elegant Design
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Fluent
-MetacityTheme=Fluent
-IconTheme=Fluent
-CursorTheme=Fluent
+GtkTheme=Larsha-Light
+MetacityTheme=Larsha-Light
+IconTheme=Larsha
+CursorTheme=Larsha
 ButtonLayout=close,minimize,maximize:menu
