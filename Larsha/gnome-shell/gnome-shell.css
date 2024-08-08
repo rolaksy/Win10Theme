@@ -4837,3 +4837,15 @@ StWidget.focused .app-grid-running-dot {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1) !important;
   border-radius: 3px !important;
 }
+
+.apps-view {
+  color: #FFFFFF !important;
+}
+
+.app-folder-view {
+  color: #FFFFFF !important;
+}
+
+.show-apps-button {
+  color: #FFFFFF !important;
+}
