@@ -1888,7 +1888,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-radius: 0;
   spacing: 6px;
   border-bottom: 3px solid transparent;
-  min-width: 57px;
+  min-width: 54px;
 }
 
 .grouped-window-list-item-box.top, .grouped-window-list-item-box.bottom {

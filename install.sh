@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THEME_DIR=/home/$USER/.local/share/themes
+THEME_DIR=/home/$USER/.themes
 ICONS_DIR=/home/$USER/.local/share/icons
 
 # check if theme direcotry is present
